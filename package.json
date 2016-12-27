@@ -10,6 +10,7 @@
     "zmq",
     "circlejs"
   ],
+  "repository": "https://github.com/paduvi/circle-zmq.git",
   "author": "paduvi",
   "license": "ISC",
   "dependencies": {
