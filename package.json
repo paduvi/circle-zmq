@@ -1,6 +1,6 @@
 {
   "name": "circle-zmq",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "plugin zmq for circleJS",
   "main": "index.js",
   "scripts": {
