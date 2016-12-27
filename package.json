@@ -1,0 +1,21 @@
+{
+  "name": "circle-zmq",
+  "version": "1.0.4",
+  "description": "plugin zmq for circleJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zmq",
+    "circlejs"
+  ],
+  "author": "paduvi",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "glob": "^7.1.1",
+    "path": "^0.12.7",
+    "zmq": "^2.15.3"
+  }
+}
