@@ -50,7 +50,8 @@ module.exports = function (options) {
 
     function loadMessageRoutes() {
         app.plugin.zmq.messageRoute = {}
-        let files = glob.sync(`${__base}/controller/socket/*/route.js`);
+        const folder_name = options.path || 'socket';
+        let files = glob.sync(`${__base}/controller/${folder_name}/*/route.js`);
         return Promise.map(files, function (filePath) {
             let controllerName = path.dirname(filePath).split("/").pop();
             let content = require(filePath)(app);
